@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.believersresource.passages"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk android:minSdkVersion="8"/>
+	<uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="PassageActivity" android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name="RelatedPassagesActivity" android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name="PassageTabsActivity" android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name="PassageTab" android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name="RelatedTopicsActivity" android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name="TopicActivity" android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name="NewTopicActivity" android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name="NewPassageActivity" android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name="SettingsActivity" android:theme="@android:style/Theme.NoTitleBar"></activity>
+    </application>
+	
+</manifest>

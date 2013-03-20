@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Passages</string>
+    <string name="app_creator">by Believers Resource</string>
+    <string name="search">Search</string>
+    <string name="search_prompt">Enter a verse, passage or topic:</string>
+    <string name="searchButton">Search</string>
+    <string name="no_passages">There are no known related passages.  Why not add one?</string>
+    <string name="add_passage">Add a related passage</string>
+    <string name="passage_text">Content</string>
+    <string name="related_passages">Related Passages</string>
+    <string name="related_topics">Related Topics</string>
+    <string name="content">Content</string>
+    <string name="context">Context</string>
+    <string name="logo">Logo</string>
+    
+    <string name="add_topic">Add a related topic</string>
+    <string name="add_button">Add</string>
+    <string name="save_button">Save</string>
+    <string name="lookup_button">Look up</string>
+    <string name="no_topics">There are no known related topics.  Why not add one?</string>
+    <string name="new_topic">Add a related topic</string>
+    <string name="new_topic_prompt">Enter a single-word topic to add:</string>
+    <string name="new_passage_prompt">Enter a verse or passage to add:</string>
+    <string name="listen">Listen</string>
+    <string name="settings">Translation</string>
+    <string name="rate_app">Rate this App</string>
+    
+    <string name="edit_translation">Select the translation you would like to view</string>
+    
+    
+    <string name="vote_up">Vote Up</string>
+    <string name="vote_down">Vote Down</string>
+	
+	<color name="background">#2A2A2A</color>
+	<color name="title_bar_font">#FFFFFF</color>
+	<color name="content_font">#2A2A2A</color>
+	<color name="text_color">#FFFFFF</color>
+</resources>

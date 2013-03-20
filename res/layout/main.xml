@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical"  >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/title_bar_background" android:paddingLeft="5dp" >
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="20dp" android:textColor="@color/title_bar_font" android:text="@string/app_name" android:textStyle="bold"   />
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="14dp" android:textColor="@color/title_bar_font" android:text="@string/app_creator" android:textStyle="italic"  />
+    </LinearLayout>
+    
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"  android:textColor="@color/title_bar_font" android:textStyle="bold" android:text="@string/search"  android:layout_marginTop="15dp" android:layout_marginLeft="10dp" />
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/content_area" android:padding="5dp" android:layout_margin="5dp" >
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"  android:textColor="@color/content_font"  android:text="@string/search_prompt" />
+        <EditText android:id="@+id/searchText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:inputType="text" />
+        <Button android:id="@+id/searchButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/searchButton" android:layout_gravity="right" />
+
+	</LinearLayout>
+    <ImageView android:id="@+id/logo_image" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/logo" android:layout_gravity="center" android:contentDescription="@string/logo" />
+
+</LinearLayout>

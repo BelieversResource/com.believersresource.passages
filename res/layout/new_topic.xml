@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical"  >
+
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="@drawable/title_bar_background" android:paddingLeft="5dp" >
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="0dip" android:layout_weight="1" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/title_bar_background" android:paddingLeft="5dp" >
+	    	<TextView android:id="@+id/displayNameText" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:textSize="20dp" android:textColor="@color/title_bar_font" android:text="@string/app_name" android:textStyle="bold" />
+	    	<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="14dp" android:textColor="@color/title_bar_font" android:text="@string/related_topics" android:textStyle="italic"  />
+	    </LinearLayout>
+		<ImageButton android:id="@+id/searchButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/search" android:focusable="false" android:background="@null" android:layout_marginRight="5dp" android:layout_marginTop="7dp" android:contentDescription="@string/searchButton" />
+	</LinearLayout>
+    
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"  android:textColor="@color/title_bar_font" android:textStyle="bold" android:text="@string/add_topic"  android:layout_marginTop="15dp" android:layout_marginLeft="10dp" />
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/content_area" android:padding="5dp" android:layout_margin="5dp" >
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"  android:textColor="@color/content_font"  android:text="@string/new_topic_prompt" />
+        <EditText android:id="@+id/topicText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:inputType="text"/>
+        <Button android:id="@+id/addButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_button" android:layout_gravity="right" />
+	</LinearLayout>
+
+</LinearLayout>
